@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Profit Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="calculator">
+        <h1>Crypto Profit Calculator</h1>
+        <input type="number" id="amountSpent" placeholder="Amount of Money Used to Buy ($)">
+		<input type="number" id="marketPrice" placeholder="Market Price at Purchase ($)">
+		<input type="number" id="sellingPrice" placeholder="Selling Price ($)">
+        
+        <select id="currency"></select>
+        
+        <button id="calculate">Calculate Profit</button>
+        <div id="result">Your profit: $0.00</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
